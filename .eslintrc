@@ -24,7 +24,6 @@
   "rules": {
     "no-console": "error",
     "no-return-await": "error",
-    "no-shadow": "error",
     "no-empty-function": "error",
     "no-throw-literal": "error",
     "consistent-return": "error",
@@ -33,6 +32,7 @@
     "max-classes-per-file": "error",
 
     // @typescript-eslint
+    "@typescript-eslint/no-shadow": "error",
     "@typescript-eslint/explicit-member-accessibility": "error",
     "@typescript-eslint/consistent-type-definitions": ["error", "interface"],
     "@typescript-eslint/prefer-nullish-coalescing": "error",
